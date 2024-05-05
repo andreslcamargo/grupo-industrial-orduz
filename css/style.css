@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --color-primario: #1B6EC4;
+    --color-secundario: #bf0002;
+    --color-gris: #d4d5d6;
+    --color-gris-claro: #f1f1f1;
+    --color-gris-oscuro: #747474;
+    --color-negro: #121212;
+    --color-blanco: #ffffff;
+    --fuente-principal: 'Poppins', sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px */
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-blanco);
+}
+
+/* topbar */
+.margin-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon-color {
+    color: var(--color-gris-oscuro);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bg-custom {
+    padding: 5px;
+    background-color: var(--color-gris-claro);
+    color: var(--color-gris-oscuro);
+}
+
+.text-right {
+    text-align: right;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+/* nav */
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.navbar-brand {
+    margin-left: 24px;
+}
+
+.navbar-toggler {
+    margin-right: 24px;
+}
+
+/* carousel */
+.margin {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.mt-4 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.d-item {
+    height: 700px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+/* main */
+.contenedor {
+    width: 100%;
+    height: auto;
+}
+
+.textos {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+/* nosotros */
+.nosotros {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 24px 24px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+@media (min-width: 1200px) {
+    .img-fluid {
+        height: 500px;
+    }
+}
+
+.text {
+    border-radius: 5px;
+    display: inline-block;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-top: 24px;
+}
+
+.title {
+    color: var(--color-gris-oscuro);
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description-container {
+    border-left: 3px solid var(--color-primario);
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.description-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contenedor-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.stat {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.stat-number {
+    font-size: 36px;
+    margin: 0;
+}
+
+.stat-label {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* nosotros end */
+
+/* horario start */
+
+
+.align-items {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+}
+
+@media (min-width: 992px) {
+    .align-items {
+        margin-left: -120px;
+        z-index: 1;
+    }
+}
+
+.hours-text{
+    margin-bottom: 24px;
+}
+
+.text-1-servicio{
+    border-radius: 5px;
+    display: inline-block;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    margin-top: 24px;
+    
+}
+
+.fa-circle{
+    margin-right: 20px;
+}
+
+.image-horario{
+    min-height: 500px;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+    .image-horario {
+        margin-left: 35px;
+}
+}
+
+/* horario end */
+
+
+
+.formulario {
+    width: 100%;
+    height: 600px;
+    background-color: #48C9B0;
+}
+
+.servicios {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: #4A336C;
+}
+
+.productos {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: #6C5033;
+}
+
+.horario {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: #FFC300;
+}
+
+.testimonial {
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color: #6C3369;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: #121212;
+}
