@@ -1,0 +1,31 @@
+/* Variables */
+$color-gris-oscuro: var(--color-gris-oscuro);
+$color-gris-claro: var(--color-gris-claro);
+
+/* Estilos anidados */
+.topbar {
+    .margin-icon {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .icon-color {
+        color: $color-gris-oscuro;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bg-custom {
+        padding: 5px;
+        background-color: $color-gris-claro;
+        color: $color-gris-oscuro;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .text-left {
+        text-align: left;
+    }
+}

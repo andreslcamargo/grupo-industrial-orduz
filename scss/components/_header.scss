@@ -1,0 +1,13 @@
+header {
+    .navbar-brand {
+        margin-left: 24px;
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .navbar-toggler {
+        margin-right: 24px;
+    }
+}

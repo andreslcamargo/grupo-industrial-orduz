@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --color-primario: #1B6EC4;
+    --color-secundario: #bf0002;
+    --color-gris: #d4d5d6;
+    --color-gris-claro: #f1f1f1;
+    --color-gris-oscuro: #747474;
+    --color-negro: #121212;
+    --color-blanco: #ffffff;
+    --fuente-principal: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-blanco);
+}

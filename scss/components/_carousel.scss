@@ -1,0 +1,17 @@
+.carousel {
+    .margin, 
+    .mt-4 {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .d-item {
+        height: 700px;
+    }
+
+    .d-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(40%);
+    }
+}
